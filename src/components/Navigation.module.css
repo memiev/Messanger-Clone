@@ -1,0 +1,29 @@
+
+
+.navMenu {
+    display: flex;
+    /* justify-content: space-between; */
+
+}
+
+.navItem {
+    list-style-type: none;
+}
+
+.navItem:not(:first-child) {
+    margin-left: 1em;
+}
+
+
+.navItem a {
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    font-weight: 500;   
+
+
+}
+
+.navItem a:hover {
+    border-bottom: 4px #0a7cff solid;
+}
